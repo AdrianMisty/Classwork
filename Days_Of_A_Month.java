@@ -1,18 +1,19 @@
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/29/2018
 */ 
 import java.util.Scanner;
+
 public class Days_Of_A_Month {
 	public static void main(String[] args) {
 		  
 		  Scanner inp = new Scanner(System.in);
 		  //User input for year and month 
 		  int days = 0;
-		  
+		
 		  System.out.print("Enter a year:");
-		  int year = inp.nextInt();		  
+		  int year = inp.nextInt();	
+		
 		  System.out.print("Enter a month:");
 		  String month = inp.next();
 		  // ordered months from least to most # of days
