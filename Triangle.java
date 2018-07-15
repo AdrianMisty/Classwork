@@ -1,12 +1,7 @@
 /**
- * Triangle.java  12/05/12
- *
- * @author - Jane Doe
- * @author - Period n
- * @author - Id nnnnnnn
- *
- * @author - I received help from ...myself
- *
+ * Triangle.java  
+ *Name : AdrianMisty
+ *Date : 12/05/12
  */
 public class Triangle
 {
