@@ -1,7 +1,6 @@
 
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/29/2018
 */
 import java.util.Scanner;
