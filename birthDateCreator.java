@@ -1,9 +1,7 @@
 
-/**
- * Write a description of class birthDateCreator here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+/*
+ * Name : AdrianMisty
+ * Date : 2015
  */
 import java.util.Scanner;
 public class birthDateCreator
@@ -14,6 +12,7 @@ public class birthDateCreator
        int Day ;
        int Month;
        int Year, year;
+       //assign final variables
        final int SUNDAY = 1;
        final int SATURDAY = 0;
        final int MONDAY = 2;
@@ -21,16 +20,15 @@ public class birthDateCreator
        final int WEDNESDAY = 4;
        final int THURSDAY = 5;
        final int FRIDAY = 6;
-     
+       
        int CurrentNumber;
-      
+       //Prompt user for month,date and year
        System.out.print("Enter your birth month ==>(1-12) ");
         Month = input.nextInt(); 
        System.out.print("Enter your day of birth ==> ");
         Day = input.nextInt();
        System.out.print("Enter your birth year( all 4 digits please ) ==> ");
         Year = input.nextInt();
-        
        
        year = Year/100;
        CurrentNumber =(int)( Math.floor(year /4));
@@ -76,14 +74,7 @@ public class birthDateCreator
        else if(2400 <= year || year <=2499)
             year = year +6;
        else if (2500 <= year || year <= 2599)
-          year = year +4;
-        
+          year = year +4;  
     
-
-    
-     
-    
-    }
-   
-    
+    }  
 }
