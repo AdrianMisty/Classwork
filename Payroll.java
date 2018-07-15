@@ -1,6 +1,5 @@
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/29/2018
 */ 
 import java.util.Scanner;
@@ -10,21 +9,22 @@ public class Payroll {
 		// TODO Auto-generated method stub
 		  Scanner input = new Scanner(System.in);
 		  //Go through inputed info
+		  //user enters name
 		  System.out.print("Enter employee's name:");
 		  String name = input.nextLine();
-		 
+		  //enter work hours
 		  System.out.print("Enter number of hours worked in a week:");
 		  double hours = input.nextDouble();
-		 
+		  //enter hourly pay rate
 		  System.out.print("Enter hourly pay rate:");
 		  double rate = input.nextDouble();
-		 
+		  //enter federal tax withholding rate
 		  System.out.print("Enter federal tax withholding rate:");
 		  double fedtax = input.nextDouble();
-		 
+		 //enter state tax withholding rate
 		  System.out.print("Enter state tax withholding rate:");
 		  double stax = input.nextDouble();
-		 
+		  // Print out informtion in desired format
 		  System.out.println("Employee Name:" + name);
 		  System.out.println("Hours Worked:" + hours);
 		  System.out.println("Pay Rate: $" + rate);
