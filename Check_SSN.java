@@ -1,13 +1,13 @@
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/30/2018
 */ 
 import java.util.Scanner;
+
 public class Check_SSN {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		  // TODO Auto-generated method stub
 		  Scanner inp= new Scanner(System.in);
 		  //prompt user ssn input
 		  System.out.print("Enter a SSN:");
@@ -18,6 +18,7 @@ public class Check_SSN {
 		    continue;
 		   }
 		   //check if number of digits is right for an ssn
+	           // Print out result in desired output
 		   if (!Character.isDigit(string.charAt(i))) {
 			   System.out.println(string + " is an invalid social security number.");
 		    	System.exit(0);
