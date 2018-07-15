@@ -1,7 +1,7 @@
 
 /*
  * Name : AdrianMisty
- * Date : 2015
+ * Date : 11-11-2012
  */
 import java.util.Scanner;
 public class birthDateCreator
