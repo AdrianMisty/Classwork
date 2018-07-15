@@ -1,7 +1,6 @@
 
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/29/2018
  */
 import java.util.Scanner;
@@ -10,13 +9,14 @@ public class DayOfTheWeek {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
+		//Take in Year and Month
 		System.out.print("Enter year: (e.g., 2012):");
 		int y = in.nextInt();
 		System.out.print("Enter month: 1-12 :");
 		int m = in.nextInt();
 		System.out.print("Enter the day of the month: 1-31 :");
 		int q = in.nextInt();
-        //Jan & Feb counted as month 13/14 of previous yr; 
+        	//Jan & Feb counted as month 13/14 of previous yr; 
 		//change month # and yr to previous yr
 		if (m == 1 || m == 2) {
 
@@ -31,6 +31,7 @@ public class DayOfTheWeek {
 		String day = "";
         
 		//find what day it is and print out
+		//I didn't feel like doing an if/else since switch/case was an option
 		switch (h) {
 
 		case 0:
@@ -56,7 +57,7 @@ public class DayOfTheWeek {
 			break;
 
 		}
-
+                //print out result
 		System.out.print("Day of the week is " + day);
 	}
 
