@@ -1,7 +1,6 @@
 
 /*
-Name:  Adriana Alva
-Class: CE 2336
+Name:  AdrianMisty
 Date:  5/29/2018
 */
 import java.util.Scanner;
@@ -10,11 +9,11 @@ public class Credit_Card_Validation {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
+		
 		long ccNum;
 		// do while loop that prompts user input
 		do {
 			System.out.print("Enter a credit card number as a long integer:");
-
 			ccNum = input.nextLong();
 			// check for validitity of user's inputed ccnum
 			if (ccNum != 0) {
